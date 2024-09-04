@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-
+CSRF_TRUSTED_ORIGINS = ['https://tuition-media-platform-yuqw.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
